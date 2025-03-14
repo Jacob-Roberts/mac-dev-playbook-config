@@ -1,0 +1,41 @@
+configure_dotfiles: false
+configure_sublime: false
+
+homebrew_installed_packages:
+  - ansible
+  - bun
+  - gh
+  - git
+  - go
+  - iperf3
+  - openssl
+  - python
+  - sqlite
+  - stow
+
+homebrew_cask_apps:
+  - brave-browser
+  - brave-browser@beta
+  - ghostty
+  - maccy
+  - monitorcontrol
+  - orbstack
+  - rectangle
+  - scroll-reverser
+  - spotify
+  - visual-studio-code
+  - zed
+
+mas_installed_apps:
+  - { id: 1352778147, name: "Bitwarden" }
+
+configure_dock: true
+dockitems_remove:
+  - Launchpad
+  - TV
+  - Podcasts
+  - 'App Store'
+dockitems_persist:
+  - name: "Visual Studio Code"
+    path: "/Applications/Visual Studio Code.app"
+    pos: 17
