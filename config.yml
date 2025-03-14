@@ -38,6 +38,9 @@ dockitems_remove:
   - Podcasts
   - 'App Store'
 dockitems_persist:
+  - name: "Brave Browser"
+    path: "/Applications/Brave Browser.app"
+    pos: 3
   - name: "Visual Studio Code"
     path: "/Applications/Visual Studio Code.app"
     pos: 17
